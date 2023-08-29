@@ -1,0 +1,622 @@
+/* css universal selectors */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar-conatainer */
+.NavContainer {
+    background-color: #f6f7f9;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    width: 73%;
+    margin: auto;
+}
+
+/* logo container */
+.logo {
+
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 38%;
+}
+
+/* logo of website */
+.logo img {
+    width: 140px;
+    height: 20px;
+}
+
+/* navbar-menu */
+.menu {
+    display: flex;
+    align-items: center;
+    width: 49%;
+}
+
+/* unordered list in navbar */
+ul {
+    display: flex;
+}
+
+/* list item in navbar */
+li {
+    list-style: none;
+}
+
+/* anchor tag styling (except active link and blog anchor tag */
+li a:not(.color, .active) {
+    text-decoration: none;
+    padding: 32px 28px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* hover effects on links */
+li a:hover:not(.active) {
+    background-color: #2e3e4e;
+    color: white;
+}
+
+/* active link */
+.active {
+    background-color: #16a3d7;
+    padding: 32px 15px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* blog anchor tag */
+.color {
+    background-color: #f58560;
+    color: white;
+    padding: 4px 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* search-bar container */
+.search {
+    display: flex;
+    width: 28%;
+    padding-top: 20px;
+    padding: 21px 0px 21px 80px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* text(search) */
+.pr {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* search icon in navbar */
+#v {
+    background-color: #f58560;
+    font-size: 28px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+
+/* first section */
+.home {
+    width: 100%;
+    background: url('https://wallpaperaccess.com/full/212469.jpg') no-repeat center center/cover;
+}
+
+/* main title etc.. container */
+.title {
+    width: 73%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Bahnschrift Condensed;
+    color: white;
+    position: relative;
+}
+
+/* title heading  */
+.title h1 {
+    font-size: 55px;
+    margin-top: 110px;
+}
+
+/* paragraph */
+.title p {
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+/* first button (LEARN MORE) of website */
+.btn1 {
+    margin-top: 44px;
+    background-color: #f58560;
+    border-radius: 5px;
+    border: none;
+}
+
+/* link */
+.btn1 a {
+    display: block;
+    font-family: Bahnschrift Condensed;
+    font-size: 30px;
+    padding: 12px 55px;
+    color: white;
+    text-decoration: none;
+}
+
+/* hover effect */
+.btn1 a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* second button (our services)  */
+.btn2 {
+
+    background-color: #2091c2;
+    border-radius: 5px;
+    border: none;
+    margin-top: 170px;
+    margin-bottom: -18px;
+}
+
+/* link */
+.btn2 a {
+    display: flex;
+    padding: 7px 23px;
+    color: white;
+    font-size: 20px;
+    font-family: Bahnschrift Condensed;
+    text-decoration: none;
+}
+
+/* hover effect */
+.btn2 a:hover {
+    background-color: #2e3e4e;
+    border-radius: 5px;
+}
+
+/* service section */
+.our-services {
+    width: 100%;
+    background-color: #f6f7f9;
+}
+
+/* services container */
+.services-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 73%;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+/* services provide by us */
+.services-container .service {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    align-items: center;
+    text-align: center;
+    padding: 22px 10px;
+}
+
+/* icons of services */
+.k {
+    color: white;
+    font-size: 102px;
+    background-color: #16a3d7;
+    padding: 12px 10px;
+    border-radius: 50%;
+    margin-bottom: 23px;
+}
+
+/* paragraph in services container */
+.our-services p {
+    font-family: Bahnschrift Condensed;
+    font-size: small;
+}
+
+/* portfolio section */
+.our-portfolio {
+    background-color: #2e3e4e;
+}
+
+/* portfolios container */
+.portfolios-container {
+    width: 73%;
+    margin: auto;
+    
+}
+
+/* heading */
+.our-portfolio h1 {
+    padding-top: 55px;
+    color: #dc8d75;
+}
+
+/* third button (More Works) */
+.btn3 {
+    background-color: #63acc7;
+    border: none;
+    border-radius: 3px;
+    float: right;
+    margin-top: -30px;
+}
+
+/* link */
+.btn3 a {
+    display: block;
+    padding: 9px;
+    color: white;
+    text-decoration: none;
+}
+
+/* hover effect */
+.btn3 a:hover {
+    background-color: #dc8d75;
+    border-radius: 3px;
+}
+
+/* portfolio items container*/
+.portfolios {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+/* portfolio description */
+.prtfl {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+/* image in portfolio items*/
+.prtfl img {
+    height: 232px;
+    border: 8px solid #dc8d75;
+}
+
+/* heading in portfolio items */
+.prtfl h3 {
+    color: #dc8d75;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+/* paragraphs in portfolio items */
+.prtfl p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+/* offers and testimonials container */
+.offers-container {
+    background-color: #f6f7f9;
+}
+
+/* offers section*/
+.we-offer {
+    width: 73%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* paragraph of offer section */
+#p {
+    padding: 22px 0px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* headings */
+.we-offer h1 {
+    color: #2d8ab6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* offers available */
+.available-offers {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 13px;
+}
+
+/* offers items */
+.ofr {
+    display: flex;
+    flex-direction: column;
+    width: 201px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* headings of items */
+.ofr h3 {
+    color: #2d8ab6;
+    align-self: flex-start;
+    padding-bottom: 5px;
+}
+
+/* paragraph of items */
+.ofr p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+/* button fourth and fifth (Read More) */
+.btn4,
+.btn5 {
+    background-color: #2d8ab6;
+    border: none;
+    border-radius: 3px;
+    align-self: flex-end;
+    margin-right: 3px;
+}
+
+/* links */
+.btn4 a,
+.btn5 a {
+    display: block;
+    padding: 5px 9px;
+    color: white;
+    text-decoration: none;
+}
+
+/* hover effects */
+.btn4 a:hover,
+.btn5 a:hover {
+    background-color: #2e3e4e;
+    border-radius: 3px;
+}
+
+/* testimonials section */
+.testimonials {
+    width: 73%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 27px;
+}
+
+/* headings */
+.testimonials h1 {
+    color: #2d8ab6;
+}
+
+/* paragraph */
+.testimonials p {
+    color: #4d4e52;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+
+/* persons container */
+.persons {
+    display: flex;
+    justify-content: center;
+}
+
+/* headings in persons container */
+.persons-container h4 {
+    color: #dc8d75;
+}
+
+/* persons images container  */
+.persons-container img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+/* first person image  */
+.person1 {
+    border-bottom: 5px solid gray;
+}
+
+/* second person image*/
+.person2 {
+    border-bottom: 5px solid rgb(245, 86, 28);
+    margin: 0px 4px;
+}
+
+/* third person image */
+.person3 {
+    border-bottom: 5px solid gray;
+}
+
+/* footer section */
+.footer-container {
+    background-color: #2e3e4e;
+}
+
+/* footer items container */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+    margin: auto;
+    padding: 35px 0px 35px 0px;
+}
+
+/* first item */
+.one {
+    width: 268px;
+    padding: 0px 10px;
+}
+
+/* second  item */
+.two {
+    width: 300px;
+    padding: 0px 10px;
+}
+
+/* third  item */
+.three {
+    width: 273px;
+    padding: 0px 10px;
+}
+
+/* forth item */
+.four {
+    width: 178px;
+    padding: 0px 10px;
+}
+
+/* headings in items */
+
+.footer h2 {
+    color: #dc8d75;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    font-family: Bahnschrift Condensed;
+}
+
+/* paragraph in items */
+
+.footer p {
+    color: #bebebe;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* horizontal line */
+.footer hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* links */
+.footer a {
+    color: #2d8ab6;
+    text-decoration: none;
+}
+
+/* link in second item  */
+.two a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* input  */
+input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    outline: none;
+}
+
+/* sixth button(Sign in) */
+.btn6 {
+    background-color: #2d8ab6;
+    border: none;
+    border-radius: 3px;
+    float: right;
+    margin-top: 18px;
+}
+
+/* link */
+.btn6 a {
+    display: block;
+    padding: 7px 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+/* hover effect */
+.btn6 a:hover {
+    background-color: #dc8d75;
+    border-radius: 3px;
+}
+
+/* recent projects container */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* projects items*/
+.project {
+    display: flex;
+}
+
+/* image  */
+.project img {
+    height: 58px;
+    width: 58px;
+}
+
+/* paragraph */
+.project p {
+    margin-left: 12px;
+}
+
+/* contact-container */
+.number-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* icons with numbers container style */
+.number {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* numbers */
+.number p {
+    line-height: 1;
+    font-size: 15px;
+}
+
+/* phone icon in numbers container */
+#d {
+    font-size: 40px;
+    color: #2d8ab6;
+    margin-left: -5px;
+}
+
+/* mobile icon in numbers container */
+#q {
+    font-size: 55px;
+    color: #2d8ab6;
+    width: 40px;
+}
+
+/* envalop icon in numbers container*/
+#e {
+    font-size: 33px;
+    color: #2d8ab6;
+    margin-right: 12px;
+    margin-left: 3px;
+}
