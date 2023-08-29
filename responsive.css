@@ -1,0 +1,190 @@
+/* RESPONSIVE WEBSITE FOR TABLETS AND MOBILES */
+
+@media screen and (max-width: 1260px) {
+
+  /* navbar */
+  nav {
+    flex-direction: column;
+  }
+
+  /* logo container */
+  .logo {
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* logo */
+  .logo img {
+    width: 220px;
+    height: 40px;
+  }
+
+  /* menu or links */
+  .menu {
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* anchor tag in list item */
+  li a:not(.color, .active) {
+    padding: 11px 13px;
+    font-size: 13px;
+  }
+
+  /* active link */
+  .active {
+    padding: 11px 28px;
+    font-size: 13px;
+  }
+
+  /* blog anchor tag */
+  .color {
+    background-color: #f58560;
+    color: white;
+    padding: 3px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+
+  /* search container */
+  .search {
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 65px;
+  }
+
+  /* text(search) */
+  .pr {
+    font-size: 11px;
+  }
+
+  /* search icon */
+  #v {
+    background-color: #f58560;
+    font-size: 18px;
+    padding: 3px 3px;
+    border-radius: 50%;
+    margin-left: 6px;
+  }
+
+  /* services section */
+  .services-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* services */
+  .services-container .service {
+    width: 195px;
+    padding: 22px 13px;
+  }
+
+  /* headings */
+  .title h1 {
+    margin-top: 76px;
+    font-size: 40px;
+  }
+
+  /* paragraph */
+  .title p {
+    font-size: 11px;
+  }
+
+  /* learn more button */
+  .btn1 a {
+    padding: 12px 55px;
+    font-size: 20px;
+  }
+
+  /* our services button */
+  .btn2 {
+    margin-bottom: -18px;
+  }
+
+  .btn2 a {
+    padding: 7px 23px;
+    font-size: 18px;
+  }
+
+  /* icons in services */
+  .k {
+    font-size: 102px;
+    margin-bottom: 23px;
+  }
+
+  /* portfolio container */
+  .portfolios {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .portfolios-container {
+    position: relative;
+  }
+
+  /* headings */
+  .our-portfolio h1 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  /* more works button */
+  .btn3 {
+    position: absolute;
+    right: 35%;
+    bottom: 2%;
+  }
+
+  /* portfolio items */
+  .portfolios .prtfl {
+    width: 320px;
+    margin-bottom: 40px;
+    padding: 0px 40px;
+  }
+
+  /* images */
+  .prtfl img {
+    height: 200px;
+  }
+
+  /* offers container */
+  .available-offers {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* offers */
+  .ofr {
+    width: 307px;
+  }
+
+  /* headings */
+  .offers-container h1 {
+    font-size: 23px;
+  }
+
+  /* testimonials section paragraph */
+  .testimonials p {
+    font-size: 13px;
+  }
+
+  /* footer section */
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* footer items */
+  .ftr {
+    margin-top: 30px;
+    width: 286px;
+    padding: 0px 20px;
+  }
+
+}
